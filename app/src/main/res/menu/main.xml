@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shuffle"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/android_music_player_rand"
+        android:title="Shuffle" />
+
+    <item
+        android:id="@+id/end"
+        android:icon="@drawable/android_music_player_end"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="End" />
+    <item
+        android:id="@+id/menu_device_connect"
+        android:orderInCategory="3"
+        android:title="Connect with Bluetooth device" />
+
+</menu>
